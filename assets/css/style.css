@@ -1002,14 +1002,22 @@ section {
 }
 
 .contact .php-email-form button[type=submit] {
-  background: #149ddd;
+  background: #1880b1;
   border: 0;
-  padding: 10px 24px;
+  padding: 8px 22px;
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
 }
 
+.contact .btn-success {
+  border: 0px;
+  margin-top: -10%;
+  padding: 7px 22px;
+  transition: 0.4s;
+  border-radius: 4px;
+  background-color: #28a763;
+}
 .contact .php-email-form button[type=submit]:hover {
   background: #37b3ed;
 }
@@ -1035,9 +1043,6 @@ section {
 }
 
 
-.contact .btn-success {
-  margin-top: -12%;
-}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
