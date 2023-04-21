@@ -303,11 +303,12 @@ h6 {
 
   #hero h1 {
     margin: 0 0 10px 0;
-    font-size: 42px;
+    font-size: 45px;
     font-weight: 700;
-    line-height: 56px;
+    line-height: 54px;
     letter-spacing: 0.5px;
     color: #fff;
+    margin-right: 4%;
   }
 
   #hero p {
@@ -315,6 +316,7 @@ h6 {
     margin-bottom: 50px;
     font-size: 24px;
     font-family: "Poppins", sans-serif;
+    margin-right: 8%;
   }
 
   #hero p span {
@@ -363,7 +365,7 @@ h6 {
 
 }
 
-@media only screen and (max-device-width: 1400px) {
+@media only screen and (max-device-width: 800px) {
   .menu {
     width: 400px;
   }
@@ -762,7 +764,7 @@ section {
   font-weight: 700;
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #1b61c4;
+  color: #303030;
 }
 
 .resume .resume-item {
@@ -1156,11 +1158,11 @@ section {
 .testimonials .testimonial-item p {
   font-style: italic;
   margin: 0 15px 15px 15px;
-  padding: 20px;
+  padding: 44px;
   background: #fff;
   position: relative;
-  margin-bottom: 35px;
-  border-radius: 6px;
+  margin-bottom: 32px;
+  border-radius: 8px;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
 
@@ -1361,16 +1363,52 @@ section {
   padding: 8px 22px;
   color: #fff;
   transition: 0.4s;
-  border-radius: 4px;
+  border-radius: 5px;
+  margin-bottom: -28%;
+  margin-top: -20%;
 }
 
-.contact .btn-success {
-  border: 0px;
-  margin-top: -10%;
-  padding: 7px 22px;
-  transition: 0.4s;
-  border-radius: 4px;
-  background-color: #28a763;
+.contact .btn-read-more {
+  line-height: 0;
+  padding: 12px 22px;
+  margin-left: 2%;
+  border-radius: 5px;
+  transition: 0.5s;
+  color: #fff;
+  background: #28be14;
+  margin-top: -20;
+}
+
+@media only screen and (max-device-width: 980px) {
+  .menu {
+    width: 100%;
+  }
+  .contact .php-email-form button[type=submit] {
+    background: #1880b1;
+    border: 0;
+    padding: 8px 12px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 4px;
+    margin-left: 42%;
+  }
+}
+
+
+@media only screen and (max-device-width: 1400px) {
+  .menu {
+    width: 100px;
+  }
+  
+ 
+}
+
+@media only screen and (max-device-width: 980px) {
+  .menu {
+    width: 100%;
+  }
+  
+  
 }
 
 .contact .php-email-form button[type=submit]:hover {
@@ -1397,6 +1435,19 @@ section {
   }
 }
 
+@media only screen and (max-device-width: 980px) {
+  .menu {
+    width: 100%;
+  }
+.contact .php-email-form {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+  margin-bottom: -32%;
+  border-radius: 2%;
+}
+}
 
 /*--------------------------------------------------------------
 # Breadcrumbs
